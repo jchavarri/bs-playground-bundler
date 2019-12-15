@@ -1,0 +1,11 @@
+/_build
+/_esy
+/.vscode
+/node_modules
+/.ci
+/src
+/tests
+/esy.lock
+/binaries
+esy.json
+dune-project

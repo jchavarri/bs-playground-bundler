@@ -1,0 +1,6 @@
+(executable
+  (name Bin)
+  (public_name bsembed)
+  (libraries bsembed.lib)
+  (ocamlopt_flags ( -linkall ))
+)
