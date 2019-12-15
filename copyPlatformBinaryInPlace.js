@@ -29,14 +29,14 @@ if (!supported) {
 
 }
 
-if (!fs.existsSync("ppx")) {
-  copyFileSync(filename, "ppx");
-  fs.chmodSync("ppx", 0755);
+if (!fs.existsSync("bsembed")) {
+  copyFileSync(filename, "bsembed");
+  fs.chmodSync("bsembed", 0755);
 }
 
-if (!fs.existsSync("ppx.exe")) {
-  copyFileSync(filename, "ppx.exe");
-  fs.chmodSync("ppx.exe", 0755);
+if (!fs.existsSync("bsembed.exe")) {
+  copyFileSync(filename, "bsembed.exe");
+  fs.chmodSync("bsembed.exe", 0755);
 }
 
 function copyFileSync(source, dest) {
