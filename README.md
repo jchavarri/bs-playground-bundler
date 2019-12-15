@@ -2,7 +2,7 @@
 
 ![](https://github.com/jchavarri/bs-playground-bundler/workflows/bsembed%20pipeline/badge.svg)
 
-Create playground-embeddable files from BuckleScript-compiled libraries.
+Create browser playground embeddable files from BuckleScript compilation cmi/cmj artifacts.
 
 It includes one binary `bsembed` that can be called with `npx bsembed` or
 `yarn run bsembed`.

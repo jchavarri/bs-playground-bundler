@@ -26,10 +26,8 @@ let info = {
   let man = [
     `S("DESCRIPTION"),
     `P(
-      "bsembed is a tool for embedding BuckleScript libraries in a playground,
-      converting from cmi and cmj files to a pseudo-file in binary format that
-      can be loaded by the JavaScript-compatible version of BuckleScript to run
-      in browsers.
+      "bsembed is a tool for browser playground embeddable files from
+      BuckleScript compilation cmi/cmj artifacts.
       The project is forked from jsoo_fs: a tool for embedding files in a
       Js_of_ocaml pseudo filesystem.",
     ),
