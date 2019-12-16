@@ -4,7 +4,7 @@
     "build": "dune build -p #{self.name}"
   },
   "scripts": {
-    "dev_release": "sh -c 'ln -s \"$(echo #{self.bin}/#{self.name})\" _release/#{self.name}.exe'",
+    "dev_release": "sh -c 'ln -s \"$(echo #{self.bin}/#{self.name})\" #{self.name}.exe'",
     "clean": "dune clean",
     "bsembed": "bsembed --help"
   },

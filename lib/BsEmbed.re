@@ -94,7 +94,7 @@ function caml_create_file_extern(name, content) {
     joo_global_object.ocaml.load_module(
       embeddedModule.cmi.name,
       embeddedModule.cmi.content,
-      embeddedModule.cmj.name.replace("/static/cmis/", ""),
+      embeddedModule.cmj.name.replace("/static/cmjs/", ""),
       embeddedModule.cmj.content
     );
   }

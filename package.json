@@ -1,6 +1,6 @@
 {
   "name": "@jchavarri/bs-playground-bundler",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Create playground-embeddable files from BuckleScript-compiled libraries",
   "repository": "https://github.com/jchavarri/bs-playground-bundler",
   "author": "Javier Chávarri <javier.chavarri@gmail.com>",
